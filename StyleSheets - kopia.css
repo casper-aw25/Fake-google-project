@@ -1,0 +1,96 @@
+/*google loggan med färger*/
+h1{
+	font-size: 110px;
+	text-align: center;
+	margin-top: 250px; /* skjuter loggan nedåt */
+	margin-bottom: 40px;
+	letter-spacing: -13px; /* drar ihop bokstäverna */
+}
+
+p:nth-of-type(2){  /* line som jag fick hjälp av ai med*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* navigatinslänkar till om och store*/
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex; /* lägger länkarna bredvid varandra */
+	gap: 20px;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	font-size: 17px;
+}
+
+/* grund layout för sidan*/
+body{
+	margin: 0;
+	padding: 0;
+}
+
+input{
+	width: 500px;
+	height: 45px;
+	border-radius: 25px; /* rundade hörn */
+	border: 1px solid #ddd; 
+	padding: 0 20px 0 40px; /* plats för ikonen till vänster */
+	font-size: 16px;
+	outline: none; /* tar bort fokus-ramen */
+	display: block;
+	margin: 0 auto; /* centrerar fältet */
+}
+
+/* sökfält*/
+.searchbar{
+	position: relative; /* ankarpunkt för ikonen */
+	width: 570px;
+	margin: 0 auto;
+}
+
+.searchbar img{
+	position: absolute; /* placerar ikonen inuti fältet */
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%); /* centrerar ikonen vertikalt */
+	cursor: pointer;
+}
+
+/* login knappen*/
+.login{
+	background-color: #276CF5;
+	color: white;
+	font-size: 16px;
+	border: none;
+	border-radius: 20px; /* rundade hörn */
+	padding: 10px 20px;
+	cursor: pointer;
+	margin: 0;
+	display: flex;
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+
+/* gmail knappen*/
+.Gmail{
+	display: flex;
+	position: absolute; /* placerar den i toppen */
+	top: 45px;
+	right: 200px; /* avstånd från höger kant */
+	font-size: 17px;
+	cursor: pointer;
+}
+
+/* bilder knappen*/
+.Bilder{
+	display: flex;
+	position: absolute; /* placerar den i toppen */
+	top: 45px;
+	right: 135px; /* avstånd från höger kant */
+	font-size: 17px;
+	cursor: pointer;
+}
